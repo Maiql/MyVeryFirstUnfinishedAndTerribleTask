@@ -1,12 +1,42 @@
+/*This is a universal selector for box-sizing*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
+/*--------------------------------------------------------------*/
+/* Welcome Photo (TOP) Image Classes */
+/*--------------------------------------------------------------*/
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*--------------------------------------------------------------*/
+/*----------Header and Main Navigation-----------*/
+/*--------------------------------------------------------------*/
 
 .header {
     padding: 20px;
@@ -40,6 +70,10 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+
+/*--------------------------------------------------------------*/
+/*----------Main Content Font and Style Classes*----------*/
+/*--------------------------------------------------------------*/
 
 a {
     color: #ffffff;
@@ -76,6 +110,10 @@ p {
     color: #ffffff;
 }
 
+/*--------------------------------------------------------------*/
+/* Main Content Image Classes */
+/*--------------------------------------------------------------*/
+
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -87,6 +125,10 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+
+/*--------------------------------------------------------------*/
+/* Main Content Image Header Classes */
+/*--------------------------------------------------------------*/
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -102,31 +144,11 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
+/*--------------------------------------------------------------*/
+/* Right Sidebar Classes */
+/*--------------------------------------------------------------*/
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-/* Used background color: #217baa and the original foreground color: #ffffff to meet a contrast ratio of 4.69:1. for screen reader compliance meeting WCAG 1.4.3 threshold ratios*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -135,8 +157,13 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #217baa;
+    background-color: #217baa; 
+    /* Used background color: #217baa instead and the original foreground color: #ffffff to meet a contrast ratio of 4.69:1. for screen reader compliance meeting WCAG 1.4.3 threshold ratios*/
 }
+
+/*--------------------------------------------------------------*/
+/* Right Sidebar Font Classes */
+/*--------------------------------------------------------------*/
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -153,6 +180,10 @@ p {
     color: #ffffff;
 }
 
+/*--------------------------------------------------------------*/
+/* Right Sidebar Header Classes */
+/*--------------------------------------------------------------*/
+
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -167,6 +198,10 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/*--------------------------------------------------------------*/
+/* Right Sidebar Image Classes */
+/*--------------------------------------------------------------*/
 
 .benefit-lead img {
     display: block;
@@ -185,6 +220,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/*--------------------------------------------------------------*/
+/* Footer Classes and Footer Header Font Class*/
+/*--------------------------------------------------------------*/
 
 .footer {
     padding: 30px;
